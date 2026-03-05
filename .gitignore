@@ -31,15 +31,17 @@ wheels/
 
 # CDK
 cdk.out/
-cdk.context.json
-
-# Audio output (optional - can uncomment to exclude)
-# voice_output/
-
-# CDK
-cdk.out/
 .cdk.staging/
 cdk.context.json
+
+# Audio artifacts
+*.pcm
+*.wav
+*.mp3
+
+# Generated files
+connect_analysis.json
+*_results.json
 
 # IDE
 .vscode/

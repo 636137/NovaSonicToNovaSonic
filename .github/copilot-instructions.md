@@ -16,13 +16,16 @@ For specialized workflows, use the available **Agent Skills** (type `/` in chat 
 ## Project Structure
 
 ```
-├── .github/skills/        # Agent Skills (portable, auto-loaded)
-├── cdk/                   # CDK infrastructure stacks
-├── contact_flows/         # Amazon Connect contact flow JSON
-├── lambda/                # Lambda function handlers
-├── lex/                   # Lex bot definitions
-├── scripts/               # Deployment and utility scripts
-└── voice_tester/          # Voice testing framework
+├── .github/
+│   ├── copilot-instructions.md  # These instructions
+│   └── skills/                  # Agent Skills (portable, auto-loaded)
+├── cdk/                         # CDK infrastructure stacks
+├── contact_flows/               # Amazon Connect contact flow JSON
+├── docs/                        # Additional documentation
+├── lambda/                      # Lambda function handlers
+├── lex/                         # Lex bot definitions
+├── scripts/                     # Deployment and utility scripts
+└── voice_tester/                # Voice testing framework
 ```
 
 ## Coding Standards
