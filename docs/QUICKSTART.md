@@ -59,7 +59,7 @@ export $(cat .env | grep -v '^#' | xargs)
 Or configure AWS CLI permanently:
 ```bash
 aws configure
-# Enter your Access Key ID: AKIAYUQL7KVBMDDO7OEJ
+# Enter your Access Key ID: <YOUR_AWS_ACCESS_KEY_ID>
 # Enter your Secret Access Key: (your secret key)
 # Default region: us-east-1
 # Default output format: json
