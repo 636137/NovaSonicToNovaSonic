@@ -15,7 +15,7 @@
     "ai"
   ],
   "author": "",
-  "license": "MIT",
+  "license": "UNLICENSED",
   "devDependencies": {
     "aws-cdk": "^2.125.0"
   }

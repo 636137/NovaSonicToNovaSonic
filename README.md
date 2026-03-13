@@ -1,3 +1,9 @@
+## Proprietary Notice
+
+This code is proprietary to **Maximus**. **No public license is granted**. See [`NOTICE`](./NOTICE).
+
+---
+
 # Amazon Connect Voice Testing Framework
 
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
