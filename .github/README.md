@@ -230,3 +230,26 @@ This software is confidential and proprietary to Maximus Inc. Unauthorized copyi
 **Last Updated**: March 3, 2026  
 **Based on**: Real Amazon Connect + Lex V2 + Lambda deployment  
 **Validated**: Successfully deployed and tested
+
+<!-- BEGIN COPILOT CUSTOM AGENTS -->
+## GitHub Copilot Custom Agents (Maximus Internal)
+
+This repository includes **GitHub Copilot custom agent profiles** under `.github/agents/` to speed up planning, documentation, and safe reviews.
+
+### Included agents
+- `implementation-planner` — Creates detailed implementation plans and technical specifications for this repository.
+- `readme-creator` — Improves README and adjacent documentation without modifying production code.
+- `security-auditor` — Performs a read-only security review (secrets risk, risky patterns) and recommends fixes.
+- `nova-sonic-voice-engineer` — Builds and debugs Amazon Nova Sonic bidirectional voice streaming solutions.
+
+### How to invoke
+
+- **GitHub.com (Copilot coding agent):** select the agent from the agent dropdown (or assign it to an issue) after the `.agent.md` files are on the default branch.
+- **GitHub Copilot CLI:** from the repo folder, run `/agent` and select one of the agents, or run:
+  - `copilot --agent <agent-file-base-name> --prompt "<your prompt>"`
+- **IDEs:** open Copilot Chat and choose the agent from the agents dropdown (supported IDEs), backed by the `.github/agents/*.agent.md` files.
+
+References:
+- Custom agents configuration: https://docs.github.com/en/copilot/reference/custom-agents-configuration
+- Creating custom agents: https://docs.github.com/en/copilot/how-tos/use-copilot-agents/coding-agent/create-custom-agents
+<!-- END COPILOT CUSTOM AGENTS -->
