@@ -6,6 +6,18 @@ This code is proprietary to **Maximus**. **No public license is granted**. See [
 
 # Amazon Connect Voice Testing Framework
 
+## Repository Layout
+
+- `frontend/`
+- `backend/`
+- `infra/`
+
+## Local vs Deploy
+
+- Local: see `docs/how-to.md`
+- Deploy: see `infra/`
+
+
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
 [![AWS](https://img.shields.io/badge/AWS-Connect%20%7C%20Chime%20%7C%20Bedrock-orange.svg)](https://aws.amazon.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
