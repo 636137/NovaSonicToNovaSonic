@@ -58,3 +58,25 @@ package-lock.json
 
 # OS
 .DS_Store
+
+# --- Maximus security hardening (do not commit secrets) ---
+.env
+.env.*
+!.env.example
+
+# Private keys / certs / keystores
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_dsa
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Logs
+*.log
